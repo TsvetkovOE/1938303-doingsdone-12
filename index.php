@@ -73,7 +73,7 @@ $show_complete_tasks = rand(0, 1);
                     <label class="checkbox">
                             <input class="checkbox__input visually-hidden show_completed" type="checkbox"
                             
-                            <?php if ($show_complete_task == 1): ?> checked <?php endif; ?> >
+                            <?php if ($show_complete_task === 1): ?> checked <?php endif; ?> >
                                                                 
                             <span class="checkbox__text">Показывать выполненные</span>
                     </label>
