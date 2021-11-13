@@ -94,6 +94,12 @@ $show_complete_tasks = rand(0, 1);
 
                         <td class="task__date"></td>
                     </tr>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+                    <!--показывать следующий тегт <tr/>, если переменная $show_complete_tasks равна единице-->
+=======
+>>>>>>> Stashed changes
                     <!-- вставка кода если условие истино -->
                     <?php if ($show_complete_task === 1): ?>
                     <tr class="tasks__item task task--completed">
@@ -108,6 +114,10 @@ $show_complete_tasks = rand(0, 1);
                         </td>
                     </tr>
                     <?php endif; ?>
+<<<<<<< Updated upstream
+=======
+>>>>>>> 6825c9e794cc1ba46087bc7272180c3ff466c128
+>>>>>>> Stashed changes
                 </table>
             </main>
         </div>
